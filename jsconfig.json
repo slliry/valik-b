@@ -1,0 +1,16 @@
+{
+  // for auto complete
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "#root/*": ["./*"],
+      "#controllers/*": ["./controllers/*"],
+      "#middleware/*": ["./middleware/*"],
+      "#models/*": ["./models/*"],
+      "#routes/*": ["./routes/*"],
+      "#services/*": ["./services/*"],
+      "#utils/*": ["./utils/*"],
+      "#validations/*": ["./validations/*"],
+    }
+  }
+}
